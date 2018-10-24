@@ -14,12 +14,72 @@ bash get_dataset.sh
 Then, the layout of `omniglot-45-5` should be:
 ```
 .
-├── train/                  # Repository contains the training split (45 alphabets)
-├── test/                   # Repository contains the testing split (5 alphabets)
+├── train/                  # Repository contains the training set (45 alphabets)
+├── test/                   # Repository contains the testing set (5 alphabets)
 ├── get_dataset.sh          # Main script
 ├── preprocessing.py        # Preprocessing script
 ├── LICENSE
 └── README.md
+```
+
+### Splits of alphabets
+
+- Training set:
+```
+Alphabet_of_the_Magi
+Gurmukhi
+Cyrillic
+Oriya
+Avesta
+Gujarati
+Japanese_(katakana)
+Sanskrit
+Japanese_(hiragana)
+Korean
+Malay_(Jawi_-_Arabic)
+Balinese
+Latin
+Mkhedruli_(Georgian)
+Blackfoot_(Canadian_Aboriginal_Syllabics)
+Kannada
+Grantha
+Asomtavruli_(Georgian)
+Burmese_(Myanmar)
+Armenian
+Old_Church_Slavonic_(Cyrillic)
+Bengali
+Atemayar_Qelisayer
+Anglo-Saxon_Futhorc
+Tifinagh
+Glagolitic
+Ojibwe_(Canadian_Aboriginal_Syllabics)
+Braille
+Manipuri
+Greek
+Keble
+Tagalog
+N_Ko
+Malayalam
+Early_Aramaic
+Angelic
+Aurek-Besh
+Arcadian
+Ge_ez
+Inuktitut_(Canadian_Aboriginal_Syllabics)
+Futurama
+Mongolian
+Hebrew
+Syriac_(Estrangelo)
+Atlantean
+```
+
+- Testing set:
+```
+Tengwar
+Sylheti
+Tibetan
+Syriac_(Serto)
+ULOG
 ```
 
 ## Reference
