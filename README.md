@@ -1,5 +1,7 @@
 # omniglot-45-5
 
+<img src="https://user-images.githubusercontent.com/7057863/47463742-1cfa0580-d7b5-11e8-8b76-757430b71ab7.png" width="216" />
+
 This repo contains the code to get Omniglot 45-5 split dataset used for few-shot density estimation [1, 2, 3].
 
 ## Usage
