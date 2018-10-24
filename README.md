@@ -4,7 +4,13 @@
 
 This repo contains the code to get Omniglot 45-5 split dataset used for few-shot density estimation [1, 2, 3].
 
+## Download
+
+[Here](https://github.com/yenchenlin/omniglot-45-5/blob/master/omniglot-45-5.zip) is the processed dataset.
+
 ## Usage
+
+If you want to create the dataset yourself, run:
 ```
 git clone git@github.com:yenchenlin/omniglot-45-5.git
 cd omniglot-45-5
@@ -22,7 +28,7 @@ Then, the layout of `omniglot-45-5` should be:
 └── README.md
 ```
 
-### Splits of alphabets
+## Splits of alphabets
 
 - Training set:
 ```
