@@ -28,7 +28,7 @@ Then, the layout of `omniglot-45-5` should be:
 └── README.md
 ```
 
-## Splits of alphabets
+## Splits of Alphabets
 
 - Training set:
 ```
