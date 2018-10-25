@@ -11,7 +11,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]=''
 
 if __name__ == '__main__':
     sess = tf.Session()
-    PATH = '/afs/csail.mit.edu/u/y/yenchenlin/Workspace/omniglot-45-5'
+    PATH = os.path.dirname(os.path.abspath(__file__))
     DIRS = [os.path.join(PATH, 'train/*/**/***.png'), os.path.join(PATH, 'test/*/**/***.png')]
 
     # Graph
